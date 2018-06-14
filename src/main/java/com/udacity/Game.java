@@ -152,8 +152,8 @@ public class Game {
         String result = "None";
         if (checkHorizontally('x') || checkVertically('x') || checkDiagonally('x')) {
             result = "X wins";
-        } else if(checkHorizontally('y') || checkVertically('y') || checkDiagonally('y')) {
-            result = "Y wins";
+        } else if(checkHorizontally('o') || checkVertically('o') || checkDiagonally('o')) {
+            result = "O wins";
         } else if(isTie()) {
             result = "Tie";
         }
